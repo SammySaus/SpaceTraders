@@ -18,6 +18,22 @@
 			<Item Name="Test GUI API.vi" Type="VI" URL="../Libraries/GUI/Test GUI API.vi"/>
 		</Item>
 		<Item Name="login.vi" Type="VI" URL="../login.vi"/>
+		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="ShowPackages" Type="Bool">true</Property>
+			<Item Name="delacor_lib_qmh" Type="{2DC17C6E-B9FF-4CBE-BC4B-3D45FE0534D9}">
+				<Property Name="package-name" Type="Str">delacor_lib_qmh</Property>
+				<Property Name="package-type" Type="Str">vipm</Property>
+			</Item>
+			<Item Name="jki_lib_rest_client" Type="{2DC17C6E-B9FF-4CBE-BC4B-3D45FE0534D9}">
+				<Property Name="package-name" Type="Str">jki_lib_rest_client</Property>
+				<Property Name="package-type" Type="Str">vipm</Property>
+			</Item>
+			<Item Name="ni_lib_advanced_http_client_api" Type="{2DC17C6E-B9FF-4CBE-BC4B-3D45FE0534D9}">
+				<Property Name="package-name" Type="Str">ni_lib_advanced_http_client_api</Property>
+				<Property Name="package-type" Type="Str">vipm</Property>
+			</Item>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

@@ -1,0 +1,12 @@
+[project]
+labview-version = 2024
+vipc = ""
+
+[nipm]
+
+[vipm]
+
+[vipm.dependencies]
+jki_lib_rest_client = "2.1.0.34"
+delacor_lib_qmh = "7.0.1.1316"
+ni_lib_advanced_http_client_api = "1.0.1.5"
