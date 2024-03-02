@@ -56,9 +56,9 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
-				<Item Name="Create REST Client Argument--cluster.ctl" Type="VI" URL="../Create REST Client Argument--cluster.ctl"/>
+				<Item Name="Get Waypoint Argument--cluster.ctl" Type="VI" URL="../Get Waypoint Argument--cluster.ctl"/>
 			</Item>
-			<Item Name="Create REST Client.vi" Type="VI" URL="../Create REST Client.vi"/>
+			<Item Name="Get Waypoint.vi" Type="VI" URL="../Get Waypoint.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -85,13 +85,10 @@
 			<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		</Item>
-		<Item Name="Functions" Type="Folder">
-			<Item Name="Current Status.vi" Type="VI" URL="../Current Status.vi"/>
-			<Item Name="Search JSON.vi" Type="VI" URL="../Search JSON.vi"/>
-		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
+		<Item Name="Functions.lvlib" Type="Library" URL="../Functions/Functions.lvlib"/>
 		<Item Name="Register.vi" Type="VI" URL="../Register.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
