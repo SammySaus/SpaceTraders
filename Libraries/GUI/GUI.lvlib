@@ -87,10 +87,12 @@
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Item Name="Current Status.vi" Type="VI" URL="../Current Status.vi"/>
+			<Item Name="Search JSON.vi" Type="VI" URL="../Search JSON.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
+		<Item Name="Register.vi" Type="VI" URL="../Register.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
