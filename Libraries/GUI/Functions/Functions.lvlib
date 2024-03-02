@@ -12,5 +12,6 @@
 	<Item Name="Current Status.vi" Type="VI" URL="../Current Status.vi"/>
 	<Item Name="Get Waypoint.vi" Type="VI" URL="../Get Waypoint.vi"/>
 	<Item Name="Search JSON.vi" Type="VI" URL="../Search JSON.vi"/>
+	<Item Name="show contracts.vi" Type="VI" URL="../show contracts.vi"/>
 	<Item Name="Simple Request Template.vit" Type="VI" URL="../Simple Request Template.vit"/>
 </Library>

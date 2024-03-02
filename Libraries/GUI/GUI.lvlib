@@ -57,8 +57,10 @@
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Get Waypoint Argument--cluster.ctl" Type="VI" URL="../Get Waypoint Argument--cluster.ctl"/>
+				<Item Name="Show Contracts Argument--cluster.ctl" Type="VI" URL="../Show Contracts Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Get Waypoint.vi" Type="VI" URL="../Get Waypoint.vi"/>
+			<Item Name="Show Contracts.vi" Type="VI" URL="../Show Contracts.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
